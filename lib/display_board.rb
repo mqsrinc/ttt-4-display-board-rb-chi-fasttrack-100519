@@ -14,7 +14,7 @@ board = [" "," "," "," "," "," "," "," "," "]
 #board[0]="X"
 display_board(board)
 
-board = [" "," "," "," "," "," "," "," "," "]
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 display_board(board)
 display_board(board)
 display_board(board)
