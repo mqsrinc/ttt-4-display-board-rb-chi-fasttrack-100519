@@ -1,8 +1,6 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 
-board = [" "," "," "," "," "," "," "," "," "]
-
 def display_board(board)
   # puts "A Tic Tac Toe Board"
   puts "#{board[0]}|#{board[1]}|#{board[2]}"
@@ -12,5 +10,14 @@ def display_board(board)
   puts "#{board[7]}|#{board[8]}|#{board[9]}"
 end
 
+board = [" "," "," "," "," "," "," "," "," "]
 #board[0]="X"
 display_board(board)
+
+board = [" "," "," "," "," "," "," "," "," "]
+display_board(board)
+display_board(board)
+display_board(board)
+display_board(board)
+display_board(board)
+
